@@ -1,0 +1,89 @@
+/* HW8 - Airport API   Oswaldo Flores */
+header {
+    padding: .5em 0 20px;
+    font-family: serif;
+    font-size: x-large;
+}
+
+footer {
+    clear: both;
+}
+
+body {
+    text-align: left;
+    padding-left: 300px;
+
+    min-width: 600px;
+    max-width: 960px;
+    width: 80%;
+
+    margin-left: auto;
+    margin-right: auto;
+
+    background-color: darkgray;
+    font-size: large;
+}
+
+ul{
+    list-style-position: inside;
+    list-style-type: circle;
+    text-align: left;
+}
+
+ol{
+    list-style-position: inside;
+    list-style-type: none;
+    text-align: left;
+}
+
+h2{
+    font-size: xx-large;
+}
+
+a:link,
+a:visited {
+    text-decoration: none;
+    color: darkblue;
+}
+
+a:hover,
+a:active {
+    text-decoration: none;
+    color: darkgoldenrod;
+}
+
+input[type=submit]{
+    padding:5px 15px;
+    background: darkblue;
+    border:1px lightcyan;
+    cursor:pointer;
+    border-radius: 5px;
+    color: white
+}
+
+input[type=submit]:hover {
+    padding:5px 15px;
+    background: darkgoldenrod;
+    border:1px lightcyan;
+    cursor:pointer;
+    border-radius: 5px;
+    color: white;
+}
+
+input[type=file]{
+    padding:5px 15px;
+    background: darkgray;
+    border:1px lightcyan;
+    cursor:pointer;
+    border-radius: 5px;
+    color: black
+}
+
+input[type=file]:hover {
+    padding:5px 15px;
+    background: darkgoldenrod;
+    border:1px lightcyan;
+    cursor:pointer;
+    border-radius: 5px;
+    color: white;
+}
